@@ -7,7 +7,7 @@ The work implements the following Spiking Neural Network using Brian2 that can r
 
 -BLE - contains a Python script to acquire data from an accelerometer and gyroscope, built-in a SensorTag, using Bluetooth Low Energy
 
--CCS - contains the Code Composer Studio project that should be uploaded to the SensorTag. This project is modified version of TI's ProjectZero. It implements a custom BLE service. There are two workspace available:
+-CCS - contains the Code Composer Studio project that should be uploaded to the SensorTag. This project is modified version of TI's ProjectZero. It implements a custom BLE service. There are two workspace available (tested on CCS 8.3.1):
 - workspace_v88         : saves multiple sensor readings and sends in burst (increases the sensors sampling frequency by sendind 251 bytes of data at 100 Hz)
 - workspace_v88_100hz   : sends a single sensors readings (from accelerometer and gyroscope) at 100 Hz (BLE transmission frequency can be increased but the approach of the ws above works better)
 
