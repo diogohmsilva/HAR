@@ -1,0 +1,41 @@
+
+**** Build of configuration FlashROM for project simple_peripheral_cc2650stk_stack ****
+
+"C:\\ti_ccs8\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/../../../../../tools/lib_search/lib_search.exe" C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/build_config.opt "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/../../../../../tools/lib_search/params_split_cc2640.xml" C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/../../../../../src/../blelib "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/../../ccs/config/lib_linker.cmd"
+<<< Using Library: host_pxxx.a >>>
+<<< Using Library: cc2640_ctrl_pxxx.a >>>
+<<< Using Library: cc26xx_hci_tl_none.a >>>
+<<< Not Modifying lib_linker.cmd. Stack configurations have not changed. >>>
+ 
+Building target: "simple_peripheral_cc2650stk_stack.out"
+Invoking: ARM Linker
+"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_5.2.6/bin/armcl" --cmd_file="C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/../../../../../src/config/build_components.opt" --cmd_file="C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/stack/../../iar/stack/build_config.opt"  -mv7M3 --code_state=16 --abi=eabi -me -O4 --opt_for_speed=0 --c99 --define=CC26XX --define=CC26XXWARE --define=DATA= --define=EXT_HAL_ASSERT --define=FLASH_ROM_BUILD --define=GATT_NO_CLIENT --define=INCLUDE_AES_DECRYPT --define=NEAR_FUNC= --define=OSAL_CBTIMER_NUM_TASKS=1 --define=OSAL_SNV=1 --define=POWER_SAVING --define=USE_ICALL --define=xDEBUG --define=xDEBUG_ENC --define=xDEBUG_GPIO --define=xDEBUG_SW_TRACE --define=xPM_DISABLE_PWRDOWN --define=xTESTMODES --define=xTEST_BLEBOARD --diag_warning=225 --diag_suppress=48 --diag_suppress=16004 --diag_wrap=off --display_error_number -z -m"simple_peripheral_cc2650stk_stack.map" --stack_size=256 --heap_size=0 -i"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_5.2.6/lib" -i"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_5.2.6/include" --reread_libs --diag_wrap=off --display_error_number --diag_suppress=16002-D --diag_suppress=10247-D --diag_suppress=10325-D --diag_suppress=10229-D --warn_sections --xml_link_info="simple_peripheral_cc2650stk_stack_linkInfo.xml" --entry_point=startup_entry --rom_model --unused_section_elimination=on --compress_dwarf=on -o "simple_peripheral_cc2650stk_stack.out" "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/config/ccs_linker_defines.cmd" "./HAL/Common/hal_assert.obj" "./HAL/Target/CC2650/Drivers/hal_flash_wrapper.obj" "./HAL/Target/CC2650/Drivers/hal_rtc_wrapper.obj" "./HAL/Target/CC2650/Drivers/hal_trng_wrapper.obj" "./HAL/Target/CC2650/_common/mb_patch.obj" "./ICallBLE/ble_dispatch.obj" "./NPI/npi.obj" "./OSAL/osal.obj" "./OSAL/osal_bufmgr.obj" "./OSAL/osal_cbtimer.obj" "./OSAL/osal_clock.obj" "./OSAL/osal_memory_icall.obj" "./OSAL/osal_pwrmgr.obj" "./OSAL/osal_snv_wrapper.obj" "./OSAL/osal_timers.obj" "./PROFILES/gap.obj" "./PROFILES/gapbondmgr.obj" "./PROFILES/gattservapp_util.obj" "./PROFILES/sm_ecc.obj" "./Startup/ble_user_config.obj" "./Startup/icall_startup.obj" "./Startup/osal_icall_ble.obj" "./Startup/rom_jt.obj" "./TOOLS/onboard.obj" "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/config/lib_linker.cmd" "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/common/cc26xx/ccs/cc26xx_stack.cmd"  -llibc.a -l"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/simple_peripheral/ccs/config/lib_linker.cmd" -l"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/rom/ble_rom_releases/04242014/ble_rom_patch.symbols" -l"C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/cc26xxware_2_24_02_17393/driverlib/bin/ccs/driverlib.lib" 
+<Linking>
+error #10008-D: cannot find file "C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/cc26xxware_2_24_02_17393/driverlib/bin/ccs/driverlib.lib"
+ 
+ undefined              first referenced
+  symbol                    in file     
+ ---------              ----------------
+ NOROM_CPUcpsid         <whole-program> 
+ NOROM_CPUcpsie         <whole-program> 
+ NOROM_FlashProgram     <whole-program> 
+ NOROM_FlashSectorErase <whole-program> 
+ NOROM_IntDisable       <whole-program> 
+ NOROM_IntEnable        <whole-program> 
+ NOROM_TRNGConfigure    <whole-program> 
+ NOROM_VIMSModeGet      <whole-program> 
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "simple_peripheral_cc2650stk_stack.out" not built
+ 
+>> Compilation failure
+makefile:192: recipe for target 'simple_peripheral_cc2650stk_stack.out' failed
+gmake[2]: *** [simple_peripheral_cc2650stk_stack.out] Error 1
+makefile:188: recipe for target 'main-build' failed
+gmake[1]: *** [main-build] Error 2
+makefile:183: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

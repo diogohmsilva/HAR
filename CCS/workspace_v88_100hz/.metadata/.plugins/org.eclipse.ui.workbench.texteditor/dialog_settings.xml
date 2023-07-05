@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="DATA_LENGTH" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="DATA_LENGTH"/>
+			<item value="sensor"/>
+			<item value="setAccelRange"/>
+			<item value="ACC_RANGE_16G"/>
+			<item value="setGyroRange"/>
+			<item value="GYRO_CONFIG_REGISTER"/>
+			<item value="myclock"/>
+			<item value="APP_MSG_INIT_SENSORS"/>
+			<item value="sensorDataUpdate"/>
+			<item value="Clock_start(Clock_handle(&amp;myClock));"/>
+			<item value="rangeClockSwiFxn"/>
+			<item value="myClock"/>
+			<item value="clock_start"/>
+			<item value="myClockSwiFxn"/>
+			<item value="clock_contr"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="1631" key="DIALOG_X_ORIGIN"/>
+		<item value="350" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

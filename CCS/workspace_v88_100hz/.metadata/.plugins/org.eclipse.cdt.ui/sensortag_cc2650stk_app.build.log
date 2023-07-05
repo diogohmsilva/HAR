@@ -1,0 +1,56 @@
+
+**** Build of configuration FlashOnly_OAD for project sensortag_cc2650stk_app ****
+
+"C:\\ti_ccs8\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/sensortag/ccs/config/app_ble.cfg"
+Invoking: XDCtools
+"C:/ti_ccs8/xdctools_3_32_00_06_core/xs" --xdcpath="C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/packages;C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages;C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products/bios_6_46_01_38/packages;C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products/uia_2_00_06_52/packages;C:/ti_ccs8/ccsv8/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -p ti.platforms.simplelink:CC2650F128 -r release -c "C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS" --cfgArgs "NO_ROM=1,OAD_IMG_E=1" --compileOptions "-mv7M3 --code_state=16 --abi=eabi -me -O4 --opt_for_speed=0 --include_path=\"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include\" --include_path=\"C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products\" --include_path=\"C:/ti_ccs8\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/examples/sensortag/cc26xx/app\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/controller/cc26xx/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/rom\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/common/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/icall/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/batt/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/dev_info\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/hid_dev/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/keys\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/oad/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/roles\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/roles/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/profiles/sensor_profile/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/heapmgr\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/hal/src/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/hal/src/target/_common/cc26xx\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/hal/src/target/_common\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/target\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/icall/src\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/icall/src/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/osal/src/inc\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/services/src/saddr\" --include_path=\"C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/src/components/services/src/sdata\" --include_path=\"C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/cc26xxware_2_24_02_17393\" --include_path=\"C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages\" --include_path=\"C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/extflash\" --include_path=\"C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors\" --include_path=\"C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensortag\" --c99 --define=CC2650STK --define=CC26XX --define=Display_DISABLE_ALL --define=EXCLUDE_AUDIO --define=FACTORY_IMAGE --define=FEATURE_OAD --define=GATT_TI_UUID_128_BIT --define=HEAPMGR_SIZE=0 --define=ICALL_MAX_NUM_ENTITIES=11 --define=ICALL_MAX_NUM_TASKS=8 --define=POWER_SAVING --define=USE_ICALL --define=xdc_runtime_Assert_DISABLE_ALL --define=xdc_runtime_Log_DISABLE_ALL --diag_warning=225 --diag_suppress=48 --diag_wrap=off --display_error_number --gen_func_subsections=on " "C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/sensortag/ccs/config/app_ble.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring app_ble.xem3 from package/cfg/app_ble_pem3.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/sensortag/ccs/config/src/sysbios/sysbios.aem3 ...
+gmake[1]: Entering directory `C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/sensortag/ccs/config/src/sysbios'
+clem3 C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products/bios_6_46_01_38/packages/ti/sysbios/BIOS.c ...
+ 
+>> Compilation failure
+gmake[1]: Leaving directory `C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/sensortag/ccs/config/src/sysbios'
+Build of libraries failed.
+TOOLS/subdir_rules.mk:12: recipe for target 'build-2106586031-inproc' failed
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/I2C.c', needed by 'Drivers/I2C/I2C.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/i2c/I2CCC26XX.c', needed by 'Drivers/I2C/I2CCC26XX.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/pin/PINCC26XX.c', needed by 'Drivers/PIN/PINCC26XX.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/rf/RFCC26XX_singleMode.c', needed by 'Drivers/RF/RFCC26XX_singleMode.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/SPI.c', needed by 'Drivers/SPI/SPI.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/spi/SPICC26XXDMA.c', needed by 'Drivers/SPI/SPICC26XXDMA.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/drivers/dma/UDMACC26XX.c', needed by 'Drivers/UDMA/UDMACC26XX.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/extflash/ExtFlash.c', needed by 'Middleware/extflash/ExtFlash.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorBmp280.c', needed by 'Middleware/sensors/SensorBmp280.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorHdc1000.c', needed by 'Middleware/sensors/SensorHdc1000.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorI2C.c', needed by 'Middleware/sensors/SensorI2C.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorMpu9250.c', needed by 'Middleware/sensors/SensorMpu9250.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorOpt3001.c', needed by 'Middleware/sensors/SensorOpt3001.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorTmp007.c', needed by 'Middleware/sensors/SensorTmp007.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensors/SensorUtil.c', needed by 'Middleware/sensors/SensorUtil.obj'.
+gmake: *** No rule to make target 'C:/ti/tirtos_cc13xx_cc26xx_2_20_01_08/products/tidrivers_cc13xx_cc26xx_2_20_01_10/packages/ti/mw/sensortag/SensorTagTest.c', needed by 'Middleware/sensortag/SensorTagTest.obj'.
+"C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products/bios_6_46_01_38/packages/ti/sysbios/family/arm/cc26xx/Boot.c", line 36: fatal error: cannot open source file "driverlib/sys_ctrl.h"
+1 catastrophic error detected in the compilation of "C:/ti_ccs8/tirtos_cc13xx_cc26xx_2_20_01_08/products/bios_6_46_01_38/packages/ti/sysbios/family/arm/cc26xx/Boot.c".
+Compilation terminated.
+gmake[1]: *** [BIOS.obj] Error 1
+gmake: *** [C:/ti_ccs8/simplelink/ble_sdk_2_02_01_18/examples/cc2650stk/sensortag/ccs/config/src/sysbios/sysbios.aem3] Error 2
+error: xdc.cfg.SourceDir: "C:/ti_ccs8/xdctools_3_32_00_06_core/packages/xdc/cfg/SourceDir.xs", line 209: xdc.cfg.SourceDir : Build of generated source libraries failed: exit status = 2:
+ 
+js: "C:/ti_ccs8/xdctools_3_32_00_06_core/packages/xdc/cfg/Main.xs", line 160: Error: Configuration failed!
+gmake.exe: *** [package/cfg/app_ble_pem3.xdl] Error 1
+gmake.exe: *** Deleting file `package/cfg/app_ble_pem3.xdl'
+gmake.exe: *** [package/cfg/app_ble_pem3.xdl] Deleting file `package/cfg/app_ble_pem3.h'
+gmake.exe: *** [package/cfg/app_ble_pem3.xdl] Deleting file `package/cfg/app_ble_pem3.c'
+js: "C:/ti_ccs8/xdctools_3_32_00_06_core/packages/xdc/tools/Cmdr.xs", line 51: Error: xdc.tools.configuro: configuration failed due to earlier errors (status = 2); 'linker.cmd' deleted.
+gmake[1]: *** [build-2106586031-inproc] Error 1
+gmake: *** [build-2106586031] Error 2
+TOOLS/subdir_rules.mk:9: recipe for target 'build-2106586031' failed
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

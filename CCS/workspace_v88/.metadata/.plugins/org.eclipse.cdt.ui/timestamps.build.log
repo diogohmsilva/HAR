@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project timestamps ****
+
+"C:\\ti_ccs8\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building target: "timestamps.out"
+Invoking: ARM Linker
+"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_18.1.8.LTS/bin/armcl" -mv4 --code_state=32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"timestamps.map" -i"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_18.1.8.LTS/lib" -i"C:/ti_ccs8/ccsv8/tools/compiler/ti-cgt-arm_18.1.8.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="timestamps_linkInfo.xml" --rom_model -o "timestamps.out" "./hello.obj"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10247-D: creating output section ".const" without a SECTIONS specification
+warning #10247-D: creating output section ".data" without a SECTIONS specification
+warning #10247-D: creating output section ".bss" without a SECTIONS specification
+warning #10247-D: creating output section ".cinit" without a SECTIONS specification
+warning #10247-D: creating output section ".sysmem" without a SECTIONS specification
+warning #10210-D: creating ".stack" section with default size of 0x800; use the -stack option to change the default size
+warning #10210-D: creating ".sysmem" section with default size of 0x800; use the -heap option to change the default size
+ 
+ undefined           first referenced
+  symbol                 in file     
+ ---------           ----------------
+ osal_GetSystemClock ./hello.obj     
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "timestamps.out" not built
+ 
+>> Compilation failure
+makefile:140: recipe for target 'timestamps.out' failed
+gmake[1]: *** [timestamps.out] Error 1
+makefile:136: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

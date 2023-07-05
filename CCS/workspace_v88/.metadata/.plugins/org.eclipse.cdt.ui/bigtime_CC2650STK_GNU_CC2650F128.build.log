@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project bigtime_CC2650STK_GNU_CC2650F128 ****
+
+"C:\\ti_ccs8\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.am3g ...
+gmake[1]: Nothing to be done for 'all'.
+making ../src/sysbios/rom_sysbios.am3g ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****

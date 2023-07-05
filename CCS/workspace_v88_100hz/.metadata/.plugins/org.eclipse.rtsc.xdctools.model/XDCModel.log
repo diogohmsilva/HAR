@@ -1,0 +1,13 @@
+mar 15, 2023 11:04:28 AM org.eclipse.rtsc.xdctools.ui.logger.XDCLogger LogException
+SEVERE: msg.error.UnknownException
+java.lang.NullPointerException
+	at org.eclipse.rtsc.xdctools.parsers.ErrorParser.processLine(Unknown Source)
+	at org.eclipse.cdt.core.ErrorParserManager.processLine(ErrorParserManager.java:363)
+	at org.eclipse.cdt.core.ErrorParserManager.checkLine(ErrorParserManager.java:698)
+	at org.eclipse.cdt.core.ErrorParserManager.write(ErrorParserManager.java:682)
+	at org.eclipse.cdt.internal.core.StreamProgressMonitor.write(StreamProgressMonitor.java:101)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$SynchronizedOutputStream.flushBufferedErrors(ProcessClosure.java:256)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$SynchronizedOutputStream.write(ProcessClosure.java:191)
+	at com.ti.ccstudio.project.core.internal.build.temp.ProcessClosure$ReaderThread.run(ProcessClosure.java:78)
+

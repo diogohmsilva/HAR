@@ -1,0 +1,8 @@
+
+**** Build of configuration FlashOnly_OAD for project sensortag_cc2650stk_app ****
+
+"C:\\ti_ccs8\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'sensortag_cc2650stk_app.out' is up to date.
+
+**** Build Finished ****
